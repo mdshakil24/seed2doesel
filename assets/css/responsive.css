@@ -1,0 +1,184 @@
+@media all and (max-width: 1250px) {
+    .sd-hero-content {
+        padding-left: 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    nav.sd-header-nav ul {
+        display: flex !important;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    h1 {
+        font-size: 52px;
+    }
+    .sd-hero-area {
+        padding: 50px 0;
+    }
+    .sd-hero-content .sd-register-btn  a {
+        margin-top: 200px;
+    }
+    .sd-hero-content {
+        padding-left: 30px;
+    }
+    .sd-header-content .sd-register-btn {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    nav.sd-header-nav ul {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 165px;
+        width: 100%;
+        background: #FFC000;
+        padding: 30px 0;
+        z-index: 99;
+        text-align: center;
+        display: none;
+    }
+    .sd-header-nav ul li a {
+
+        margin: 8px 0;
+    }
+    .sd-header-nav ul li a:hover {
+        color: #FFFFFF;
+    }
+    .sd-header-left-logo img {
+        width: 120px;
+    }
+    .sd-header-main-area {
+        padding: 20px 0;
+    }
+    .sd-top-logo-content {
+        justify-content: center;
+    }
+    .sd-single-top-logo {
+        margin: 0 20px;
+    }
+    .sd-single-top-logo img {
+        margin: 10px 0;
+    }
+
+
+}
+
+@media all and (max-width: 991px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .sd-video-text h4 {
+        font-size: 23px;
+    }
+    .sd-black-text-content h4 {
+        font-size: 28px;
+    }
+    .sd-hero-content .sd-register-btn  a {
+        margin-top: 180px;
+    }
+    .sd-hero-content .sd-register-btn {
+        text-align: center;
+        margin-left: 90px;
+    }
+    .hero-banner {
+        object-position: right;
+    }
+
+}
+
+@media all and (max-width: 767px) {
+    .sd-hero-content {
+        padding-left: 0;
+        text-align: center;
+    }
+    .sd-hero-content .sd-register-btn  a {
+        margin-top: 50px;
+    }
+    .sd-hero-content .sd-register-btn {
+        margin-left: 0;
+    }
+    .sd-single-top-logo img {
+        height: 75px;
+    }
+
+
+}
+
+@media all and (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+    }
+    .sd-header-left-logo img {
+        width: 110px;
+    }
+    .sd-header-top-mail a {
+        font-size: 22px;
+    }
+    .sd-hero-content .sd-register-btn a {
+        font-size: 22px;
+        padding: 12px 25px;
+        margin-top: 30px;
+    }
+    .sd-video-content iframe {
+        height: 250px;
+    }
+    .sd-black-text-content h4 {
+        font-size: 23px;
+    }
+    .sd-single-top-logo img {
+        height: 60px;
+    }
+    .sd-header-nav ul li a {
+        margin: 5px 0;
+        font-size: 22px;
+    }
+    nav.sd-header-nav ul {
+        top: 160px;
+    }
+    
+
+
+}
+
+@media all and (max-width: 450px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .sd-video-text h4 {
+        font-size: 22px;
+    }
+    .sd-header-left-logo img {
+        width: 100px;
+    }
+
+    .sd-header-top-mail a {
+        font-size: 18px;
+    }
+    .sd-header-top-social ul  li a {
+        font-size: 18px;
+    }
+    .sd-hero-content .sd-register-btn a {
+        font-size: 20px;
+        padding: 10px 22px;
+        margin-top: 20px;
+    }
+    .sd-black-text-content h4 {
+        font-size: 20px;
+    }
+    nav.sd-header-nav ul {
+        top: 142px;
+    }
+
+
+}
+

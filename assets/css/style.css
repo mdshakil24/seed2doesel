@@ -109,8 +109,8 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-right: 40px;
 }
-
 .sd-header-top-social ul li a {
   font-size: 25px;
   color: #fff;
@@ -131,6 +131,7 @@ p {
 .sd-header-left-logo img {
   width: 142px;
   height: auto;
+  margin-left: 40px;
 }
 
 .sd-header-content,
@@ -259,10 +260,14 @@ p {
 /*===== Start SD Hero Area Css =====*/
 
 .sd-hero-area {
+  background-image: url('../images/hero-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 60px;
   overflow: hidden;
+  background-position: left;
 }
 
 .hero-banner {
@@ -275,7 +280,7 @@ p {
 }
 
 .sd-hero-content {
-  padding-left: 30px;
+  padding-left: 74px;
 }
 
 .sd-hero-content .sd-register-btn {
@@ -292,7 +297,7 @@ p {
 .sd-hero-content .sd-register-btn a:hover {
   background: #fff;
   color: #000000;
-  border: 2px solid #fff;
+  border: 2px solid #000000;
 }
 
 /*===== End SD Hero Area Css =====*/
@@ -311,6 +316,8 @@ p {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  width: 92%;
+  margin: 0 auto;
 }
 
 /*===== End SD Top Logo Area Css =====*/
@@ -346,7 +353,10 @@ p {
   background: #000000;
   padding: 40px 0;
 }
-
+.sd-black-text-content {
+  width: 92%;
+  margin: 0 auto;
+}
 .sd-black-text-content h4 {
   text-align: center;
   font-weight: 400;
@@ -364,7 +374,7 @@ p {
 }
 
 .sd-benefits-content {
-  width: 90%;
+  width: 84%;
   margin: 0 auto;
 }
 
@@ -392,10 +402,10 @@ p {
 
 .sd-single-benefits-click-content h3 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 27px;
   color: #000000;
   text-align: center;
-  max-width: 80%;
+  max-width: 85%;
   margin: 0 auto;
   padding: 30px 0;
   height: 140px;
@@ -465,6 +475,8 @@ p {
 
 .sd-about-heading-text {
   text-align: center;
+  width: 95%;
+  margin: 0 auto;
   margin-bottom: 35px;
 }
 
@@ -531,6 +543,7 @@ p {
   font-size: 32px;
   color: rgba(0, 0, 0, 1);
   text-transform: inherit;
+  padding-left: 50px;
 }
 
 .sd-sign-up-content .sd-register-btn a {
@@ -540,6 +553,7 @@ p {
 .sd-sign-up-content .sd-register-btn a:hover {
   background-color: #fff;
   color: rgba(0, 0, 0, 1);
+  border: 2px solid #000000;
 }
 
 .sd-bottom-logo-area {
@@ -553,8 +567,16 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.sd-bottom-top-logo-content {
+  padding-left: 40px;
+}
 .sd-bottom-bottom-logo-content img {
   margin: 0 5px;
+  height: 78px;
+  margin-top: 25px;
+}
+.sd-bottom-bottom-logo-content {
+  margin-top: 35px;
 }
 
 /*===== End SD Sign Up Bottom Logo Area Css =====*/
@@ -562,7 +584,7 @@ p {
 /*===== Start SD FAQ Area Css =====*/
 .sd-faq-area {
   background-color: rgba(255, 244, 208, 1);
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 80px;
 }
 /* .sd-faq-content h2 {
@@ -586,6 +608,11 @@ p {
 .sd-faq-card-body.first {
   margin-top: 45px;
 }
+.sd-bottom-logo-content {
+  width: 95%;
+  margin: 0 auto;
+}
+
 .sd-faq-card-body p.first {
   margin-left: 20px;
   max-width: 400px;
@@ -665,7 +692,7 @@ h3.sd-faq-heading {
 }
 .sd-footer-content .sd-register-btn a:hover {
   background-color: #fff;
-  border: 2px solid #fff;
+  border: 2px solid #FFC000;
 }
 /*===== End SD Footer Area Css =====*/
 

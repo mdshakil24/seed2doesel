@@ -1,3 +1,7 @@
+@media all and (max-width: 1366px) {
+
+}
+
 @media all and (max-width: 1299px) {
     .sd-hero-content {
         padding-left: 0;
@@ -173,6 +177,14 @@
         height: 100px;
     }
 
+    .sd-hero-area {
+        background-position: right;
+    }
+
+    .sd-black-text-content,.sd-top-logo-content,.sd-about-heading-text {
+        width: 100%;
+    }
+
 }
 
 @media all and (max-width: 767px) {
@@ -252,6 +264,12 @@
     }
     .sd-faq-card-body p.first {
         margin-left: 0;
+    }
+    .sd-header-left-logo img {
+        margin-left: 0;
+    }
+    .sd-header-top-social ul {
+        padding-right: 0;
     }
 
 }

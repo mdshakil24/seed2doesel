@@ -240,6 +240,19 @@
     .sd-footer-links ul {
         margin: 35px 0;
     }
+    .sd-faq-content .card {
+        margin-top: 30px;
+    }
+
+    h3.sd-faq-heading,.sd-faq-card-body p {
+        font-size: 22px;
+    }
+    .sd-faq-card-body.first {
+        flex-direction: column;
+    }
+    .sd-faq-card-body p.first {
+        margin-left: 0;
+    }
 
 }
 
@@ -319,6 +332,18 @@
 
     .sd-footer-links ul li a {
         font-size: 22px;
+    }
+    h3.sd-faq-heading, .sd-faq-card-body p {
+        font-size: 20px;
+    }
+    .sd-faq-heading span {
+        font-size: 35px;
+    }
+    .sd-faq-content .card {
+        margin-top: 25px;
+    }
+    .sd-faq-card-body.first {
+        margin-top: 35px;
     }
 
 

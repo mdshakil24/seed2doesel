@@ -559,8 +559,75 @@ p {
 
 /*===== End SD Sign Up Bottom Logo Area Css =====*/
 
-/*===== Start SD Footer Area Css =====*/
+/*===== Start SD FAQ Area Css =====*/
+.sd-faq-area {
+  background-color: rgba(255, 244, 208, 1);
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+/* .sd-faq-content h2 {
+  margin-bottom: 50px;
+} */
 
+
+.sd-faq-content .card {
+  background: none;
+  border: none;
+  margin-top: 45px;
+}
+.sd-faq-card-body {
+  margin-top: 25px;
+}
+.sd-faq-card-body.first {
+  display: flex;
+  flex-direction: row;
+
+}
+.sd-faq-card-body.first {
+  margin-top: 45px;
+}
+.sd-faq-card-body p.first {
+  margin-left: 20px;
+  max-width: 400px;
+  margin-top: 6px;
+}
+.sd-faq-card-body p:nth-child(2) {
+  margin-top: 25px;
+}
+h3.sd-faq-heading {
+  font-weight: 700;
+  font-size: 25px;
+  color: #000000;
+  text-transform: inherit;
+  cursor: pointer;
+}
+.sd-faq-heading.collapsed .plus {
+  display: inline-block;
+}
+.sd-faq-heading.collapsed .minus {
+  display: none;
+}
+.sd-faq-heading .plus {
+  display: none;
+}
+.sd-faq-heading .minus {
+  display: inline-block;
+}
+.sd-faq-heading span {
+  margin-right: 10px;
+  font-size: 40px;
+}
+.sd-faq-card-table img {
+  max-width: 390px;
+  width: 100%;
+}
+
+/*===== End SD FAQ Area Css =====*/
+
+
+
+
+/*===== Start SD Footer Area Css =====*/
 .sd-footer-area {
   background-color: rgba(0, 0, 0, 1);
   padding-top: 45px;

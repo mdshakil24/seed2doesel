@@ -100,6 +100,12 @@
     .sd-single-about-text h3 {
         font-size: 25px;
     }
+    .sd-bottom-top-logo-content, .sd-bottom-bottom-logo-content {
+        justify-content: center;
+    }
+    .sd-bottom-logo-content img {
+        margin: 8px 15px;
+    }
 
 }
 
@@ -144,6 +150,19 @@
     .sd-single-about-text h3,
     p {
         font-size: 22px;
+    }
+    .sd-sign-up-content {
+        flex-direction: column;
+    }
+    .sd-sign-up-content h3 {
+        margin-bottom: 15px;
+    }
+    .sd-bottom-logo-area {
+        padding: 60px 0;
+    }
+    .sd-bottom-logo-content img {
+        margin: 15px 25px;
+        height: 100px;
     }
 
 }
@@ -221,9 +240,12 @@
     }
 
     .sd-hero-content .sd-register-btn a {
+        margin-top: 30px;
+    }
+
+    .sd-register-btn a {
         font-size: 22px;
         padding: 12px 25px;
-        margin-top: 30px;
     }
 
     .sd-video-content iframe {
@@ -262,6 +284,18 @@
     .sd-about-area {
         padding: 40px 0;
     }
+    .sd-sign-up-content h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .sd-bottom-logo-area {
+        padding: 40px 0;
+    }
+
+    .sd-bottom-logo-content img {
+        height: auto;
+        width: auto;
+    }
 
 
 }
@@ -292,9 +326,12 @@
     }
 
     .sd-hero-content .sd-register-btn a {
+        margin-top: 20px;
+    }
+
+    .sd-register-btn a {
         font-size: 20px;
         padding: 10px 22px;
-        margin-top: 20px;
     }
 
     .sd-black-text-content h4 {
@@ -330,6 +367,13 @@
     p {
         font-size: 20px;
     }
-
+    .sd-bottom-logo-area {
+        overflow: hidden;
+    }
+    .sd-bottom-logo-content img {
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+    }
 
 }

@@ -511,3 +511,61 @@ p {
 }
 
 /*===== End SD About Area Css =====*/
+
+
+/*===== Start SD Sign Up Bottom Logo Area Css =====*/
+
+.sd-sign-up-area {
+  background-color: rgba(255, 192, 0, 1);
+  padding: 30px 0;
+}
+.sd-sign-up-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sd-sign-up-content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 1);
+  text-transform: inherit;
+}
+
+.sd-sign-up-content .sd-register-btn a {
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+}
+.sd-sign-up-content .sd-register-btn a:hover {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 1);
+}
+
+.sd-bottom-logo-area {
+  background: #fff;
+  padding: 80px 0;
+}
+.sd-bottom-top-logo-content,.sd-bottom-bottom-logo-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.sd-bottom-bottom-logo-content img {
+  margin: 0 5px;
+}
+
+/*===== End SD Sign Up Bottom Logo Area Css =====*/
+
+/*===== Start SD Footer Area Css =====*/
+
+.sd-footer-area {
+  background-color: rgba(0, 0, 0, 1);
+  padding-top: 45px;
+  padding-bottom: 100px;
+}
+
+/*===== End SD Footer Area Css =====*/
+

@@ -1,7 +1,17 @@
-@media all and (max-width: 1250px) {
+@media all and (max-width: 1299px) {
     .sd-hero-content {
         padding-left: 0;
     }
+
+    .sd-single-benefits-click-content h3 {
+        font-size: 25px;
+    }
+
+    .sd-single-about-text ul li,
+    .sd-single-about-text h3 {
+        font-size: 22px;
+    }
+
 }
 
 @media all and (min-width: 1200px) {
@@ -14,21 +24,27 @@
     h1 {
         font-size: 52px;
     }
+
     .sd-hero-area {
         padding: 50px 0;
     }
-    .sd-hero-content .sd-register-btn  a {
+
+    .sd-hero-content .sd-register-btn a {
         margin-top: 200px;
     }
+
     .sd-hero-content {
         padding-left: 30px;
     }
+
     .sd-header-content .sd-register-btn {
         display: none;
     }
+
     .mobile-menu-icon {
         display: block;
     }
+
     nav.sd-header-nav ul {
         flex-direction: column;
         position: absolute;
@@ -41,29 +57,49 @@
         text-align: center;
         display: none;
     }
+
     .sd-header-nav ul li a {
 
         margin: 8px 0;
     }
+
     .sd-header-nav ul li a:hover {
         color: #FFFFFF;
     }
+
     .sd-header-left-logo img {
         width: 120px;
     }
+
     .sd-header-main-area {
         padding: 20px 0;
     }
+
     .sd-top-logo-content {
         justify-content: center;
     }
+
     .sd-single-top-logo {
         margin: 0 20px;
     }
+
     .sd-single-top-logo img {
         margin: 10px 0;
     }
 
+    .sd-benefits-click-contents {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sd-about-layout-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .sd-single-about-text ul li,
+    .sd-single-about-text h3 {
+        font-size: 25px;
+    }
 
 }
 
@@ -71,24 +107,43 @@
     h1 {
         font-size: 48px;
     }
+
     h2 {
         font-size: 35px;
     }
+
     .sd-video-text h4 {
         font-size: 23px;
     }
+
     .sd-black-text-content h4 {
         font-size: 28px;
     }
-    .sd-hero-content .sd-register-btn  a {
+
+    .sd-hero-content .sd-register-btn a {
         margin-top: 180px;
     }
+
     .sd-hero-content .sd-register-btn {
         text-align: center;
         margin-left: 90px;
     }
+
     .hero-banner {
         object-position: right;
+    }
+
+    .sd-benefits-show-click-para p,
+    .single-sd-benefits-show-content p,
+    .single-sd-benefits-show-content ul li,
+    .single-sd-benefits-show-content h3 {
+        font-size: 28px;
+    }
+
+    .sd-single-about-text ul li,
+    .sd-single-about-text h3,
+    p {
+        font-size: 22px;
     }
 
 }
@@ -98,16 +153,57 @@
         padding-left: 0;
         text-align: center;
     }
-    .sd-hero-content .sd-register-btn  a {
+
+    .sd-hero-content .sd-register-btn a {
         margin-top: 50px;
     }
+
     .sd-hero-content .sd-register-btn {
         margin-left: 0;
     }
+
     .sd-single-top-logo img {
         height: 75px;
     }
 
+    .sd-benefits-click-contents {
+        gap: 20px;
+    }
+
+    .sd-single-benefits-click-content h3 {
+        font-size: 24px;
+    }
+
+    .sd-single-benefits-click-content img {
+        height: 120px;
+    }
+
+    .sd-benefits-show-click-para p,
+    .single-sd-benefits-show-content p,
+    .single-sd-benefits-show-content ul li,
+    .single-sd-benefits-show-content h3 {
+        font-size: 22px;
+    }
+
+    .single-sd-benefits-show-content ul {
+        padding-left: 40px;
+    }
+
+    .single-sd-benefits-show-content ul li {
+        margin-top: 5px;
+    }
+
+    .sd-benefits-show-content {
+        padding: 25px 15px;
+    }
+
+    .sd-about-layout-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sd-single-about-text ul li::before {
+        left: -12px;
+    }
 
 }
 
@@ -115,34 +211,57 @@
     h1 {
         font-size: 40px;
     }
+
     .sd-header-left-logo img {
         width: 110px;
     }
+
     .sd-header-top-mail a {
         font-size: 22px;
     }
+
     .sd-hero-content .sd-register-btn a {
         font-size: 22px;
         padding: 12px 25px;
         margin-top: 30px;
     }
+
     .sd-video-content iframe {
         height: 250px;
     }
+
     .sd-black-text-content h4 {
         font-size: 23px;
     }
+
     .sd-single-top-logo img {
         height: 60px;
     }
+
     .sd-header-nav ul li a {
         margin: 5px 0;
         font-size: 22px;
     }
+
     nav.sd-header-nav ul {
         top: 160px;
     }
-    
+
+    .sd-benefits-area {
+        padding: 40px 0;
+    }
+
+    .sd-benefits-click-contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sd-single-benefits-click-content h3 {
+        height: auto;
+    }
+
+    .sd-about-area {
+        padding: 40px 0;
+    }
 
 
 }
@@ -151,12 +270,15 @@
     h1 {
         font-size: 35px;
     }
+
     h2 {
         font-size: 30px;
     }
+
     .sd-video-text h4 {
         font-size: 22px;
     }
+
     .sd-header-left-logo img {
         width: 100px;
     }
@@ -164,21 +286,50 @@
     .sd-header-top-mail a {
         font-size: 18px;
     }
-    .sd-header-top-social ul  li a {
+
+    .sd-header-top-social ul li a {
         font-size: 18px;
     }
+
     .sd-hero-content .sd-register-btn a {
         font-size: 20px;
         padding: 10px 22px;
         margin-top: 20px;
     }
+
     .sd-black-text-content h4 {
         font-size: 20px;
     }
+
     nav.sd-header-nav ul {
         top: 142px;
     }
 
+    .sd-benefits-show-click-para p,
+    .single-sd-benefits-show-content p,
+    .single-sd-benefits-show-content ul li,
+    .single-sd-benefits-show-content h3 {
+        font-size: 20px;
+    }
+
+    .sd-single-benefits-click-content img {
+        height: 100px;
+    }
+
+    .sd-single-benefits-click-content h3 {
+        font-size: 23px;
+    }
+
+    .sd-single-about-img img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .sd-single-about-text ul li,
+    .sd-single-about-text h3,
+    p {
+        font-size: 20px;
+    }
+
 
 }
-

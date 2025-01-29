@@ -67,7 +67,8 @@
         color: #FFFFFF;
     }
 
-    .sd-header-left-logo img {
+    .sd-header-left-logo img,
+    .sd-footer-logo img {
         width: 120px;
     }
 
@@ -100,9 +101,12 @@
     .sd-single-about-text h3 {
         font-size: 25px;
     }
-    .sd-bottom-top-logo-content, .sd-bottom-bottom-logo-content {
+
+    .sd-bottom-top-logo-content,
+    .sd-bottom-bottom-logo-content {
         justify-content: center;
     }
+
     .sd-bottom-logo-content img {
         margin: 8px 15px;
     }
@@ -151,15 +155,19 @@
     p {
         font-size: 22px;
     }
+
     .sd-sign-up-content {
         flex-direction: column;
     }
+
     .sd-sign-up-content h3 {
         margin-bottom: 15px;
     }
+
     .sd-bottom-logo-area {
         padding: 60px 0;
     }
+
     .sd-bottom-logo-content img {
         margin: 15px 25px;
         height: 100px;
@@ -224,6 +232,15 @@
         left: -12px;
     }
 
+    .sd-footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sd-footer-links ul {
+        margin: 35px 0;
+    }
+
 }
 
 @media all and (max-width: 575px) {
@@ -231,7 +248,8 @@
         font-size: 40px;
     }
 
-    .sd-header-left-logo img {
+    .sd-header-left-logo img,
+    .sd-footer-logo img {
         width: 110px;
     }
 
@@ -284,10 +302,12 @@
     .sd-about-area {
         padding: 40px 0;
     }
+
     .sd-sign-up-content h3 {
         font-size: 28px;
         text-align: center;
     }
+
     .sd-bottom-logo-area {
         padding: 40px 0;
     }
@@ -295,6 +315,10 @@
     .sd-bottom-logo-content img {
         height: auto;
         width: auto;
+    }
+
+    .sd-footer-links ul li a {
+        font-size: 22px;
     }
 
 
@@ -313,7 +337,8 @@
         font-size: 22px;
     }
 
-    .sd-header-left-logo img {
+    .sd-header-left-logo img,
+    .sd-footer-logo img {
         width: 100px;
     }
 
@@ -367,13 +392,19 @@
     p {
         font-size: 20px;
     }
+
     .sd-bottom-logo-area {
         overflow: hidden;
     }
+
     .sd-bottom-logo-content img {
         width: 80%;
         margin: 10px auto;
         display: block;
+    }
+
+    .sd-footer-area {
+        padding-bottom: 115px;
     }
 
 }

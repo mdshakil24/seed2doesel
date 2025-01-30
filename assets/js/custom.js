@@ -1,10 +1,10 @@
 $(document).ready(function () {
 
   $(".all-p-humber").click(function () {
-      $(this).toggleClass("open");
+    $(this).toggleClass("open");
   });
   $(".mobile-menu-icon").click(function () {
-      $('.sd-header-nav > ul').slideToggle();
+    $('.sd-header-nav > ul').slideToggle();
   });
 
 })
@@ -29,3 +29,5 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+
